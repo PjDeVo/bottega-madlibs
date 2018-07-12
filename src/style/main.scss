@@ -7,10 +7,16 @@
     width: 300px;
     border-radius: 4px;
     box-shadow: 0 2px 4 px 0 rgba(0,0,0,.1);
+  
   }
   
+.gray {
+  background: #B3B3B3;
+}
 
-
+.green {
+  background: #00cb79;
+}
 .home {
   position: relative;
   background-color:rgba(207, 207, 207, 0.06);
@@ -90,6 +96,7 @@
 
   button:focus{
     outline: none;
+    transform: translateY(50%);
   }
 
     
@@ -101,6 +108,24 @@
   &__clear{
     background-color: #45B0E5;
     @include button;
+  }
+
+  &__content {
+    width: 1100px;
+    height: 297px;
+    background-color: #f2f2f2;
+    justify-self: center;
+    margin-bottom: 84px;
+   
+    
+    p {
+    padding: 50px 47px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 29px;
+
+    }
   }
 }
 
@@ -141,7 +166,6 @@
 
   &__number{
     grid-column: number-s/number-e;
-    background-color: #00cb79;
     color: white;
     font-size: 20px;
     line-height: 24px;   
@@ -151,3 +175,4 @@
     width: 26px;
   }
 }
+
