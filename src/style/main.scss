@@ -75,6 +75,20 @@
   grid-template-rows: 1fr 50px;
   background-color: white;
   
+  &__content_label {
+    border-radius: 50%;
+    background-color: black;
+    height: 18px;
+    width: 18px;
+    line-height: 22px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px;
+    font-weight: 600px;
+  }
 
   &__inputs {
     
